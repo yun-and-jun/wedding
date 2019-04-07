@@ -53,3 +53,6 @@ p {
 .text-gray {
 	color: #88847d;
 }
+.card {
+	border: 0px;
+}
