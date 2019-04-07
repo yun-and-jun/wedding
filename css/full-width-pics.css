@@ -1,0 +1,50 @@
+/*!
+ * Start Bootstrap - Full Width Pics (https://startbootstrap.com/template-overviews/full-width-pics)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/master/LICENSE)
+ */
+body {
+  font-family: 'Nanum Myeongjo', serif;
+  color: #58564d;
+  background-color: #f2f1ef;
+}
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+p {
+	font-size: 0.8rem;
+}
+.lead {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.pb-5 {
+    padding-bottom: 5rem!important;
+}
+.pt-5 {
+	padding-top: 5rem!important;
+}
+.py-5 {
+	padding-bottom: 0px!important;
+    padding-top: 5rem!important;
+}
+.pd-0{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.pt-1 {
+	padding-top: 1rem!important;
+}
+.bg-white {
+	background-color: #ffffff;
+}
+.text-gray {
+	color: #88847d;
+}
