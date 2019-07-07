@@ -18,6 +18,7 @@ body {
 }
 
 p {
+  font-family: 'Nanum Gothic Coding', monospace;
 	font-size: 0.8rem;
 }
 .lead {
@@ -52,7 +53,29 @@ p {
 }
 .text-gray {
 	color: #88847d;
+  font-family: 'Nanum Gothic Coding', monospace;
 }
-.card {
-	border: 0px solid;
+th {
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.lh-25 {
+  line-height: 25px;
+}
+hr {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 0;
+    border-top: 1px solid rgba(86, 85, 81, 0.55);
+}
+#d-day {
+  color: #e8e8e8;
+}
+.display-5 {
+  font-family: 'Noto Sans KR', sans-serif;
 }
