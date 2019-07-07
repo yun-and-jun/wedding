@@ -75,6 +75,8 @@ hr {
 }
 #d-day {
   color: #e8e8e8;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 15px;
 }
 .display-5 {
   font-family: 'Noto Sans KR', sans-serif;
