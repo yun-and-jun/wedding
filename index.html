@@ -31,11 +31,7 @@
     width: 100%;
     min-height: 500px;
     ">
-<<<<<<< HEAD
-   
-=======
    <img src="img/main3.png" alt="" >
->>>>>>> master
   </header>
 
   <!-- Content section -->
@@ -113,60 +109,25 @@
     </div>
   </section>
 
-<<<<<<< HEAD
-   <section class="py-5" style="padding-top: 0px!important;">
-    <div class="container">
-
-      <div class="row">
-        <img class="card-img-top" src="img/calendar.png" alt="">
-      </div>
-
-    </div>
-  </section>
-=======
    
->>>>>>> master
 
   <!-- Content section -->
   <section class="py-5" style="padding-top: .25rem !important;">
     <div class="container">
 
-       <div class="row">
+      <div class="row">
         <div class="col-md-6 mb-1 pd-0">
           <div class="card h-100">
-<<<<<<< HEAD
-            <img class="card-img-top" src="img/005.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-md-6 mb-1 pd-0">
-          <div class="card h-100">
-            <img class="card-img-top" src="img/007.jpg" alt="">
-=======
             <img class="card-img-top" src="img/013.jpg" alt="">
->>>>>>> master
-          </div>
-        </div>
-      </div>
-
-       <div class="row">
-        <div class="col-md-6 mb-1 pd-0">
-          <div class="card h-100">
-<<<<<<< HEAD
-            <img class="card-img-top" src="img/008.jpg" alt="">
           </div>
         </div>
         <div class="col-md-6 mb-1 pd-0">
           <div class="card h-100">
-            <img class="card-img-top" src="img/010.jpg" alt="">
-=======
             <img class="card-img-top" src="img/012.jpg" alt="">
->>>>>>> master
           </div>
         </div>
       </div>
 
-<<<<<<< HEAD
-=======
        <div class="row">
         <div class="col-md-6 mb-1 pd-0">
           <div class="card h-100">
@@ -181,7 +142,6 @@
       </div>
 
 
->>>>>>> master
       <div class="row">
         <div class="col-md-6 mb-1 pd-0">
           <div class="card h-100">
@@ -194,8 +154,6 @@
           </div>
         </div>
       </div>
-<<<<<<< HEAD
-=======
 
        <div class="row">
         <div class="col-md-6 mb-1 pd-0">
@@ -209,7 +167,6 @@
           </div>
         </div>
       </div>
->>>>>>> master
 
       <div class="row">
         <div class="col-md-6 mb-1 pd-0">
@@ -233,11 +190,7 @@
         </div>
         <div class="col-md-6 mb-1 pd-0">
           <div class="card h-100">
-<<<<<<< HEAD
-            <img class="card-img-top" src="img/001.jpg" alt="">
-=======
             <img class="card-img-top" src="img/024.jpg" alt="">
->>>>>>> master
           </div>
         </div>
       </div>
@@ -275,26 +228,20 @@
     var d = Math.floor(distance / (1000 * 60 * 60 * 24)); 
     var h = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)); 
     var m = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)); 
-
     //id가 d-day인 HTML코드에 내용 삽입 
     document.getElementById("d-day").innerHTML = "우리가 만나기 " + d +"일 " + h + "시간 " + m + "분 전"; });
-
     var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
     mapOption = { 
         center: new daum.maps.LatLng(37.3995163,127.1079874), // 지도의 중심좌표
         level: 3 // 지도의 확대 레벨
     };
-
     var map = new daum.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
-
     // 마커가 표시될 위치입니다 
     var markerPosition  = new daum.maps.LatLng(37.3995163,127.1079874); 
-
     // 마커를 생성합니다
     var marker = new daum.maps.Marker({
         position: markerPosition
     });
-
     // 마커가 지도 위에 표시되도록 설정합니다
     marker.setMap(map);
   </script>
